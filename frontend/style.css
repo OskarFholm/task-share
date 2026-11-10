@@ -1,0 +1,28 @@
+body {
+    background-color: #dcdcdc;
+}
+
+button{
+    transition: background-color 0,10s, transform 0.05s;
+}
+
+.addButton {
+    
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #FAFAFA;
+    background-color: #525B60;
+    
+    
+}
+.addButton:hover{
+    background-color: #494E50;
+}
+.addButton:active{
+    background-color: #494E50;
+    transform: scale(0.97);
+}
